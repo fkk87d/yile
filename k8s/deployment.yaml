@@ -1,34 +1,34 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ikm74r
+  name: ugde7b
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ikm74r
+      app: ugde7b
   template:
     metadata:
       labels:
-        app: ikm74r
+        app: ugde7b
     spec:
       containers:
-      - image: okteto.dev/ikm74r:latest
-        name: ikm74r
+      - image: okteto.dev/ugde7b:latest
+        name: iugde7b
         ports:
         - containerPort: 8080
         env:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: "lenskart.com"
+          value: "canva.com"
         - name: Vless_UUID
-          value: "78afc036-abdb-49fc-b2d9-f7e787b3552b"
+          value: "d869973f-39f5-4d25-ac57-22de9ab19fb6"
         - name: Vless_Path
-          value: "/e43wtr"
+          value: "/i84e"
         - name: Vmess_UUID
-          value: "78afc036-abdb-49fc-b2d9-f7e787b3552b"
+          value: "d869973f-39f5-4d25-ac57-22de9ab19fb6"
         - name: Vmess_Path
-          value: "/4jyrtg"
+          value: "/uge1"
         - name: Share_Path
           value: "/share233"
