@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: ikm74r
+  name: ugde7b
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "ikm74r"
+  - name: "ugde7b"
     port: 8080
   selector:
-    app: ikm74r
+    app: ugde7b
