@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
-metadata:utf10y
-  name: ugde7b
+metadata:
+  name: utf10y
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
