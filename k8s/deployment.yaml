@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: igfg8d
+  name: hk8kj
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: igfg8d
+      app: hk8kj
   template:
     metadata:
       labels:
-        app: igfg8d
+        app: hk8kj
     spec:
       containers:
-      - image: okteto.dev/igfg8d:latest
-        name: igfg8d
+      - image: okteto.dev/hk8kj:latest
+        name: hk8kj
         ports:
         - containerPort: 8080
         env:
