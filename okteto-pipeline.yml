@@ -1,3 +1,3 @@
 deploy:
-  - okteto build -t okteto.dev/ietj86df:latest
+  - okteto build -t okteto.dev/jug74r:latest
   - kubectl apply -f k8s
