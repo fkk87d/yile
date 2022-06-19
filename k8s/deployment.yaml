@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kijy34fg
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kijy34fg
+  template:
+    metadata:
+      labels:
+        app: kijy34fg
+    spec:
+      containers:
+      - image: okteto.dev/kijy34fg:latest
+        name: kijy34fg
+        ports:
+        - containerPort: 8080
+        env:
+        - name: PORT
+          value: "8080"
+        - name: ProxySite
+          value: "lenskart.com"
+        - name: Vless_UUID
+          value: "78afc036-abdb-49fc-b2d9-f7e787b3552b"
+        - name: Vless_Path
+          value: "/e43wtr"
+        - name: Vmess_UUID
+          value: "78afc036-abdb-49fc-b2d9-f7e787b3552b"
+        - name: Vmess_Path
+          value: "/4jyrtg"
+        - name: Share_Path
+          value: "/share233"
