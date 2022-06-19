@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: kie85d
+  name: koeo84d
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: kie85d
+      app: koeo84d
   template:
     metadata:
       labels:
-        app: kie85d
+        app: koeo84d
     spec:
       containers:
-      - image: okteto.dev/kie85d:latest
-        name: kie85d
+      - image: okteto.dev/koeo84d:latest
+        name: koeo84d
         ports:
         - containerPort: 8080
         env:
