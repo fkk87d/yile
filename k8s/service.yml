@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: jug74r
+  name: kfe53f
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "jug74r"
+  - name: "kfe53f"
     port: 8080
   selector:
-    app: jug74r
+    app: kfe53f
