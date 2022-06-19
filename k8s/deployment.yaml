@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: girl5g
+  name: of5gh
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: girl5g
+      app: of5gh
   template:
     metadata:
       labels:
-        app: girl5g
+        app: of5gh
     spec:
       containers:
-      - image: okteto.dev/girl5g:latest
-        name: girl5g
+      - image: okteto.dev/of5gh:latest
+        name: of5gh
         ports:
         - containerPort: 8080
         env:
