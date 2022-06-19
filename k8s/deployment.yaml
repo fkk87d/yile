@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: jgo5hj
+  name: jgi87v
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: jgo5hj
+      app: jgi87v
   template:
     metadata:
       labels:
-        app: jgo5hj
+        app: jgi87v
     spec:
       containers:
-      - image: okteto.dev/jgo5hj:latest
-        name: jgo5hj
+      - image: okteto.dev/jgi87v:latest
+        name: jgi87v
         ports:
         - containerPort: 8080
         env:
