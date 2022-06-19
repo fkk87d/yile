@@ -1,34 +1,34 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: gis7g
+  name: gkhf8t
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: gis7g
+      app: gkhf8t
   template:
     metadata:
       labels:
-        app: gis7g
+        app: gkhf8t
     spec:
       containers:
-      - image: okteto.dev/gis7g:latest
-        name: gis7g
+      - image: okteto.dev/gkhf8t:latest
+        name: gkhf8t
         ports:
         - containerPort: 8080
         env:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: "canva.com"
+          value: "greenmangaming.com"
         - name: Vless_UUID
-          value: "dbe94e43-6de8-4e76-8b14-592f43d78dee"
+          value: "10a35a1c-d723-4c22-88ac-481040845087"
         - name: Vless_Path
-          value: "/jmfe"
+          value: "/fgsd"
         - name: Vmess_UUID
-          value: "dbe94e43-6de8-4e76-8b14-592f43d78dee"
+          value: "10a35a1c-d723-4c22-88ac-481040845087"
         - name: Vmess_Path
-          value: "/aifc"
+          value: "/rtfg"
         - name: Share_Path
           value: "/share233"
