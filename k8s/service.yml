@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: gkhf8t
+  name: igfg8d
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "gkhf8t"
+  - name: "igfg8d"
     port: 8080
   selector:
-    app: gkhf8t
+    app: igfg8d
