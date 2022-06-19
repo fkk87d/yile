@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: of5gh
+  name: gis7g
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: of5gh
+      app: gis7g
   template:
     metadata:
       labels:
-        app: of5gh
+        app: gis7g
     spec:
       containers:
-      - image: okteto.dev/of5gh:latest
-        name: of5gh
+      - image: okteto.dev/gis7g:latest
+        name: gis7g
         ports:
         - containerPort: 8080
         env:
