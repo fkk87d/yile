@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: kfe53f
+  name: girl5g
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: kfe53f
+      app: girl5g
   template:
     metadata:
       labels:
-        app: kfe53f
+        app: girl5g
     spec:
       containers:
-      - image: okteto.dev/kfe53f:latest
-        name: kfe53fr
+      - image: okteto.dev/girl5g:latest
+        name: girl5g
         ports:
         - containerPort: 8080
         env:
