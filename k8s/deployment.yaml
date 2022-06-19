@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: utf10y
+  name: oi56fd
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: utf10y
+      app: oi56fd
   template:
     metadata:
       labels:
-        app: utf10y
+        app: oi56fd
     spec:
       containers:
-      - image: okteto.dev/utf10y:latest
-        name: utf10y
+      - image: okteto.dev/uoi56fd:latest
+        name: oi56fd
         ports:
         - containerPort: 8080
         env:
