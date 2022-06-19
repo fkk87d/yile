@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ugde7b
+  name: utf10y
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ugde7b
+      app: utf10y
   template:
     metadata:
       labels:
-        app: ugde7b
+        app: utf10y
     spec:
       containers:
-      - image: okteto.dev/ugde7b:latest
-        name: iugde7b
+      - image: okteto.dev/utf10y:latest
+        name: utf10y
         ports:
         - containerPort: 8080
         env:
