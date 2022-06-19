@@ -1,3 +1,3 @@
 deploy:
-  - okteto build -t okteto.dev/gkhf8t:latest
+  - okteto build -t okteto.dev/igfg8d:latest
   - kubectl apply -f k8s
