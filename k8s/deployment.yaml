@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: oi56fd
+  name: ietj86df
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: oi56fd
+      app: ietj86df
   template:
     metadata:
       labels:
-        app: oi56fd
+        app: ietj86df
     spec:
       containers:
-      - image: okteto.dev/uoi56fd:latest
-        name: oi56fd
+      - image: okteto.dev/ietj86df:latest
+        name: ietj86df
         ports:
         - containerPort: 8080
         env:
