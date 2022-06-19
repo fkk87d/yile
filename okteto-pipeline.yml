@@ -1,3 +1,3 @@
 deploy:
-  - okteto build -t okteto.dev/kfe53f:latest
+  - okteto build -t okteto.dev/girl5g:latest
   - kubectl apply -f k8s
