@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: jug74r
+  name: kfe53f
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: jug74r
+      app: kfe53f
   template:
     metadata:
       labels:
-        app: jug74r
+        app: kfe53f
     spec:
       containers:
-      - image: okteto.dev/jug74r:latest
-        name: jug74r
+      - image: okteto.dev/kfe53f:latest
+        name: kfe53fr
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: ProxySite
           value: "canva.com"
         - name: Vless_UUID
-          value: "d869973f-39f5-4d25-ac57-22de9ab19fb6"
+          value: "dbe94e43-6de8-4e76-8b14-592f43d78dee"
         - name: Vless_Path
-          value: "/i84e"
+          value: "/jmfe"
         - name: Vmess_UUID
-          value: "d869973f-39f5-4d25-ac57-22de9ab19fb6"
+          value: "dbe94e43-6de8-4e76-8b14-592f43d78dee"
         - name: Vmess_Path
-          value: "/uge1"
+          value: "/aifc"
         - name: Share_Path
           value: "/share233"
