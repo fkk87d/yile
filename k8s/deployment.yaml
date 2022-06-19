@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ietj86df
+  name: jug74r
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ietj86df
+      app: jug74r
   template:
     metadata:
       labels:
-        app: ietj86df
+        app: jug74r
     spec:
       containers:
-      - image: okteto.dev/ietj86df:latest
-        name: ietj86df
+      - image: okteto.dev/jug74r:latest
+        name: jug74r
         ports:
         - containerPort: 8080
         env:
