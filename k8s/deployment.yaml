@@ -1,27 +1,27 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: jgi87v
+  name: bj5f6
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: jgi87v
+      app: bj5f6
   template:
     metadata:
       labels:
-        app: jgi87v
+        app: bj5f6
     spec:
       containers:
-      - image: okteto.dev/jgi87v:latest
-        name: jgi87v
+      - image: okteto.dev/bj5f6:latest
+        name: bj5f6
         ports:
         - containerPort: 8080
         env:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: "videvo.net"
+          value: "lenskart.com"
         - name: Vless_UUID
           value: "9a5fe9f3-1d4b-4bdf-9442-1bef4e2c45f2"
         - name: Vless_Path
